@@ -1,0 +1,39 @@
+.dialogActions {
+  border-top: 1px solid #ccc;
+}
+
+.title {
+  padding: 25px 25px 2px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  padding: 10px 25px !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  min-height: 200px;
+  text-align: center;
+}
+
+.modal {
+  margin-bottom: 300px;
+}
+
+.picker{
+  margin-top: 10px;
+  width: 100%;
+}
+.period {
+  width: 100%;
+}
+
+.error {
+  text-align: left;
+  color: #d32f2f;
+  margin-left: 10px;
+  font-size: 12px;
+}

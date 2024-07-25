@@ -1,0 +1,89 @@
+@import "src/variables";
+
+.loginPage {
+  background: linear-gradient(to bottom, $primary-color 80%, #ffffff 80%)
+}
+
+.loginPageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  height:100vh;
+}
+
+.loginForm {
+  padding: 60px 40px 40px;
+  margin: 20px 0;
+  border-radius: 15px;
+  width: 500px;
+}
+
+.title {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 28px;
+}
+
+.logo {
+  img {
+    max-width: 70px;
+  }
+}
+
+.info {
+  margin: 50px;
+  text-align: center;
+  min-width: 900px;
+  font-size: 16px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.labelText {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+.submit-button {
+  margin-top: 15px;
+}
+
+.button {
+  margin-top: 5px;
+  color: #FFF;
+  text-align: center;
+  button {
+    padding: 10px 40px;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 10px;
+  }
+
+  button:hover {
+    filter: brightness(1.1);
+    transition: 0.3s;
+  }
+
+  button:disabled,
+  button[disabled]{
+    background-color: #cccccc;
+    color: #666666;
+  }
+}

@@ -1,0 +1,39 @@
+.dialogActions {
+  border-top: 1px solid #ccc;
+}
+
+.title {
+  padding: 25px 25px 2px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  padding: 10px 25px !important;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.rolesTitle {
+  margin-top: 10px;
+  font-size: 18px !important;
+}
+
+.roles {
+  display: flex;
+  gap: 5rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  min-height: 200px;
+  text-align: center;
+}
+
+.autocomplete {
+  width: 100%;
+  margin-top: 10px;
+}
+

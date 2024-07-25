@@ -1,0 +1,59 @@
+@import "src/variables";
+
+.navbar {
+  background-color: $primary-color !important;
+}
+
+.menuList {
+  padding: 0 !important;
+}
+
+.siteInfo {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.profile {
+  margin-left: auto !important;
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+.menuItem {
+  padding: 12px 24px !important;
+  transition: background-color 0.3s ease !important;
+  cursor: pointer !important;
+  border-bottom: 1px solid #ccc !important;
+  color: #000 !important;
+
+  &:hover {
+    background-color: #d9d6d6 !important;
+  }
+
+  svg {
+    margin-right: 10px;
+    color: #1976d2;
+  }
+}
+
+.activeTab {
+  background-color: #d9d6d6 !important;
+}
+
+.icon {
+  margin-right: 10px;
+  display: flex;
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+}

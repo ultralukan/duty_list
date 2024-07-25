@@ -1,0 +1,100 @@
+@import "src/variables";
+
+.manager, .currentDuty, .emptyDuty {
+  display: flex;
+}
+
+.cell {
+  padding: 6px 4px;
+}
+.tooltip {
+  font-size: 13px;
+}
+.emptyDuty {
+  color: $empty-color;
+}
+.manager {
+  color: $manager-color;
+}
+
+.currentDuty {
+  color: $current-color;
+}
+
+.container {
+  margin-bottom: 20px;
+}
+
+.switch {
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  width: 100%;
+  label {
+    width: auto !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.datePickerContainer{
+  text-align: center;
+}
+
+.isGroup {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.delete, .edit, .add {
+  margin-top: 2px;
+}
+
+.delete {
+  color: #d32f2f;
+}
+
+.deleteDisabled {
+  filter: brightness(0.5);
+  cursor: default;
+}
+
+.edit {
+  color: #1976d2;
+}
+
+.add {
+  color: #45d345;
+}
+
+.button {
+  display: flex;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(0.8);
+}
+
+.menuItem {
+  padding: 10px !important;
+  transition: background-color 0.3s ease !important;
+  cursor: pointer !important;
+  border-bottom: 1px solid #ccc !important;
+  color: #000 !important;
+
+  &:hover {
+    background-color: #d9d6d6 !important;
+  }
+
+  svg {
+    margin-right: 10px;
+    color: #1976d2;
+  }
+}
+
+.menuItem:last-child {
+  border-bottom: none !important;
+}

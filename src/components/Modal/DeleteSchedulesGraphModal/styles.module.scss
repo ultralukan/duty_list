@@ -1,0 +1,65 @@
+.dialogActions {
+  border-top: 1px solid #ccc;
+}
+
+.modal {
+  margin-bottom: 300px;
+}
+
+.title {
+  padding: 25px 25px 2px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  padding: 10px 25px !important;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.radio {
+  display: flex;
+  flex-direction: column !important;
+  margin-top: 10px !important;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  min-height: 200px;
+  text-align: center;
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.date {
+  div[role=combobox] {
+    border: 1px solid #cccccc;
+  }
+}
+
+.radio {
+  margin-top: -20px;
+}
+
+.radioTitle {
+  font-size: 18px !important;
+}
+
+.error {
+  text-align: left;
+  color: #d32f2f;
+  margin-left: 140px;
+  font-size: 12px;
+}
+
+.period {
+  width: 100%;
+  margin-top: 10px;
+}

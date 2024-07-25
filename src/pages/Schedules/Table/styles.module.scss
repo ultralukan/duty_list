@@ -1,0 +1,81 @@
+@import "src/variables";
+
+.cell {
+  padding: 6px 4px;
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.holiday {
+  color: $manager-color;
+}
+
+.currentDate {
+  color: $current-color;
+}
+
+.isGroup {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.button {
+  display: flex;
+  cursor: pointer;
+}
+
+.button:hover {
+  filter: brightness(0.8);
+}
+
+.delete {
+  color: #d32f2f;
+}
+
+.edit {
+  color: #1976d2;
+}
+
+.tooltip {
+  font-size: 13px;
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+  margin-top: -20px;
+}
+
+.buttons {
+  display: flex;
+  margin: 0 auto;
+
+  .btn {
+    margin: 0 10px;
+  }
+}
+
+
+.message{
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}
+
+.chief {
+  display: flex;
+  align-items: center;
+}
+
+.chiefContainer {
+  .chiefMore {
+    margin-left: 10px;
+  }
+
+  .chiefMoreNone {
+    display: none;
+  }
+}

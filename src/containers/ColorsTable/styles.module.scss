@@ -1,0 +1,65 @@
+@import "src/variables";
+
+.blue {
+  background: $empty-color;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.green {
+  background: #92E592;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.gray {
+  background: #CFD2DD;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.table {
+  margin: 10px 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.white {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border: 1px solid #af9898;
+  border-radius: 5px;
+}
+
+.red {
+  background: $manager-color;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.container {
+  display: flex;
+  border: 1px solid #af9898;
+  align-items: center;
+  padding: 10px;
+  margin: 0 10px 10px 0;
+}
+
+.yellow {
+  background: #dcb929;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 5px;
+}

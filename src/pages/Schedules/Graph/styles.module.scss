@@ -1,0 +1,61 @@
+@import "src/variables";
+
+.title {
+  color: #FFF;
+  text-align: center;
+  margin-top: 15px;
+}
+
+.table {
+  padding-bottom: 20px;
+}
+
+.weekend {
+  background: #45d345 !important;
+  color: #45d345 !important;
+}
+
+.isEmptyFuture {
+  color: $empty-color;
+}
+
+.isManager {
+  color: $manager-color;
+}
+
+.isCurrent {
+  color: $current-color
+}
+
+.selectedItem {
+  background: #1976d2 !important;
+}
+
+.tooltip {
+  font-size: 13px;
+}
+.item {
+  border-color: #1976d2 !important;
+}
+
+.head {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.chief {
+  display: flex;
+  align-items: center;
+}
+
+.chiefContainer {
+  .chiefMore {
+    margin-left: 10px;
+  }
+
+  .chiefMoreNone {
+    display: none;
+  }
+}

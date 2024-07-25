@@ -1,0 +1,76 @@
+@import "src/variables";
+
+.navbar {
+  background-color: #ffffff !important;
+  color: #1976D2 !important;
+}
+
+.menuList {
+  padding: 0 !important;
+
+  a {
+    text-decoration: none !important;
+  }
+}
+
+.siteInfo {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 18px;
+  color: #000 !important;
+}
+
+.profile {
+  margin-left: auto !important;
+
+  svg {
+    width: 40px;
+    height: 40px;
+  }
+
+  background-color: #ffffff;
+
+  img {
+    width: 64px;
+    height: 96px;
+    border-radius: 10px;
+  }
+
+  div[role=tooltip] {
+    z-index: 1000 !important;
+  }
+}
+
+.menuItem {
+  padding: 12px 24px !important;
+  transition: background-color 0.3s ease !important;
+  cursor: pointer !important;
+  border-bottom: 1px solid #ccc !important;
+  color: #000 !important;
+
+  &:hover {
+    background-color: #d9d6d6 !important;
+  }
+
+  svg {
+    margin-right: 10px;
+    color: #1976d2;
+  }
+}
+
+.activeTab {
+  background-color: #d9d6d6 !important;
+}
+
+.icon {
+  margin-right: 20px;
+  display: flex;
+
+  img {
+    height: 70px;
+  }
+}

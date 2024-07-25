@@ -1,0 +1,56 @@
+.dialogActions {
+  border-top: 1px solid #ccc;
+}
+
+.title {
+  padding: 25px 25px 2px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  padding: 10px 25px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  min-height: 200px;
+  text-align: center;
+}
+
+.modal {
+  margin-bottom: 300px;
+}
+
+.radio {
+  justify-content: center;
+}
+.input {
+  margin-top: 15px;
+}
+
+.events {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: red;
+}
+.events .ant-badge-status {
+  width: 100%;
+  overflow: hidden;
+  font-size: 12px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.notes-month {
+  font-size: 28px;
+  text-align: center;
+  color: red;
+}
+.notes-month section {
+  font-size: 28px;
+  color: red;
+}

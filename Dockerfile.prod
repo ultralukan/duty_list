@@ -1,0 +1,19 @@
+FROM node:20.8.0-alpine3.17
+
+ENV VITE_PORT=5176
+
+WORKDIR /app
+
+COPY package*.json All.crt ./
+
+RUN npm config set strict-ssl=false \
+    && npm config set cafile="./All.crt" \
+    && npm  install
+
+COPY  . .
+
+EXPOSE $VITE_PORT
+
+CMD ["npm", "run", "prod"]
+
+

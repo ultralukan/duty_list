@@ -1,0 +1,45 @@
+.dialogActions {
+  border-top: 1px solid #ccc;
+}
+
+.title {
+  padding: 25px 25px 2px !important;
+  border-bottom: 1px solid #ccc;
+}
+
+.content {
+  padding: 10px 25px !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-width: 600px;
+  min-height: 200px;
+  text-align: center;
+}
+
+.dataContainer {
+  display: flex;
+  justify-content: space-between;
+
+  margin-top: 14px;
+}
+
+
+.modal {
+  margin-bottom: 300px;
+}
+
+.btn {
+  margin-top: 14px !important;
+}
+
+.error {
+  text-align: left;
+  color: #d32f2f;
+  margin-left: 14px;
+  font-size: 12px;
+}

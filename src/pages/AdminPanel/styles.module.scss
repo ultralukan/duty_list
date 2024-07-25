@@ -1,0 +1,97 @@
+@import "src/variables";
+
+.loginPage {
+  background: linear-gradient(to bottom, $primary-color 80%, #ffffff 80%)
+}
+
+.loginPageContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+  height:100vh;
+}
+
+.loginForm {
+  padding: 60px 40px 40px;
+  margin: 20px 0;
+  border-radius: 15px;
+}
+
+.title {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 32px;
+}
+
+.logo {
+  img {
+    max-width: 70px;
+  }
+}
+
+.info {
+  margin: 50px;
+  text-align: center;
+  min-width: 900px;
+  font-size: 16px;
+}
+
+.error {
+  margin-top: 10px;
+  color: #FF0000;
+  text-align: center;
+}
+
+.cell {
+  padding: 2px;
+  display: block;
+}
+
+.toolbar {
+  margin: 0 auto 20px;
+  text-align: center;
+}
+
+.input {
+  margin-bottom: 10px;
+}
+
+.button {
+  display: flex;
+  cursor: pointer;
+  color: #1976d2;
+}
+.menuItem {
+  padding: 12px 24px !important;
+  transition: background-color 0.3s ease !important;
+  cursor: pointer !important;
+  border-bottom: 1px solid #ccc !important;
+  color: #000 !important;
+
+  &:hover {
+    background-color: #d9d6d6 !important;
+  }
+
+  svg {
+    margin-right: 10px;
+    color: #1976d2;
+  }
+}
+.menuItem:last-child {
+  border-bottom: none !important;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button:hover {
+  filter: brightness(0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,36 @@
+@import "src/variables";
+.react-calendar-timeline .rct-header-root {
+  background: #3b8bd3;
+
+}
+
+.rct-outer {
+  border: 1px solid #939393;
+}
+
+.react-calendar-timeline .rct-header-root {
+  border-bottom: none;
+}
+
+.rct-calendar-header {
+  border-bottom: none !important;
+  border-top: none !important;
+  border-right: none !important;
+}
+
+.rct-calendar-header > div:nth-child(2) {
+  background-color: #f0f0f0;
+}
+
+.rct-dateHeader {
+  border-left: 1px solid #bbb !important;
+}
+
+.react-calendar-timeline .rct-vertical-lines .rct-vl .highlight,
+.rct-vl.highlight{
+  background: #f8b8b8 !important;
+  opacity: 0.3;
+}
+.selectedItem {
+  background: #1976d2 !important;
+}

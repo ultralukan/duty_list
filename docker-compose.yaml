@@ -1,0 +1,40 @@
+version: '3.5'
+
+services:
+  test:
+    container_name: duty-test
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    networks:
+      - duty_list_frontend
+    ports:
+      - "${VITE_LOCAL_PORT}:${VITE_PORT}"
+    command: npm run dev
+    healthcheck:
+      test: ["CMD-SHELL", "npm run healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    pid: "host"
+
+  prod:
+    container_name: duty-prod
+    build:
+      context: .
+      dockerfile: Dockerfile.prod
+    networks:
+      - duty_list_frontend
+    ports:
+      - "${VITE_PROD_PORT}:${VITE_PORT}"
+    command: npm run prod
+    healthcheck:
+      test: ["CMD-SHELL", "npm run healthcheck"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    pid: "host"
+
+networks:
+  duty_list_frontend:
+    driver: bridge

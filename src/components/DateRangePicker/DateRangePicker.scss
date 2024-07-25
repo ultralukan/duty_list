@@ -1,0 +1,56 @@
+@import "rsuite/dist/rsuite.css";
+.rs-picker-menu {
+  z-index: 9999 !important;
+}
+
+.rs-picker {
+  display: block !important;
+  min-width: 400px;
+}
+
+.dateRangeError {
+  .rs-picker {
+    border: 1px solid #ff0000 !important;
+    border-radius: 8px;
+  }
+}
+
+.rs-picker-toggle-wrapper {
+  display: block;
+}
+
+.rs-stack-item{
+  svg{
+    display: none;
+  }
+}
+
+.range{
+  display: flex;
+  align-items: center;
+
+
+  .rs-picker-daterange{
+    width: 100%;
+  }
+
+  .icon-container{
+    position: relative;
+  }
+
+  svg {
+    width: 16px;
+    position: absolute;
+    right: 25px;
+    z-index: 10;
+    color: #857d7d;
+    cursor: pointer;
+  }
+}
+
+.helpertext {
+  color: red;
+  margin-top: 5px;
+  text-align: left;
+  font-size: 12px;
+}
